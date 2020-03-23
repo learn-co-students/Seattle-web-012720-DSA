@@ -17,5 +17,32 @@ function checkTarget(arr, targ){
     }
   }
   //zeb suggests adding min and max and slowly slicing off the larger or smaller number depending on whether it was larger than the target originally
-  
-  console.log(checkTarget([1,2,3,4,5,6], 8))
+let newArray = [1,5,9,2,15,10]
+let newTarget = 12
+function zebAdd(array, target) {
+    array = array.sort(function(a,b) {return a-b})
+    console.log(array)
+    function zebAddNoSort (array, target) {sum = array[0] + array[array.length - 1]
+    console.log(sum)
+    if (sum === target) {
+        let answerArray = [array[0], array[array.length - 1]]
+        console.log(answerArray)
+        return answerArray
+        // return [array[0], array[array.length - 1]]
+    }
+    if (sum < target) {
+            array = array.slice(1)
+            zebAddNoSort(array,target)
+        } 
+    else {
+            array = array.slice(0, array.length - 1)
+            zebAddNoSort(array, target)
+        }
+    }
+    zebAddNoSort(array, target)
+}
+const answerArray = zebAdd(newArray, newTarget)
+console.log(answerArray)
+
+
+console.log(checkTarget([1,2,3,4,5,6], 8))
