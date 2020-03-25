@@ -21,13 +21,14 @@ let newArray = [1,5,9,2,15,10]
 let newTarget = 12
 function zebAdd(array, target) {
     array = array.sort(function(a,b) {return a-b})
-    console.log(array)
+    console.log(array, target)
     function zebAddNoSort (array, target) {sum = array[0] + array[array.length - 1]
     console.log(sum)
     if (sum === target) {
         let answerArray = [array[0], array[array.length - 1]]
-        console.log(answerArray)
-        return answerArray
+        console.log(answerArray, "oaijsdf")
+        return "aoisdjf"
+        // ("this be the answers: " + answerArray)
         // return [array[0], array[array.length - 1]]
     }
     if (sum < target) {
@@ -41,8 +42,8 @@ function zebAdd(array, target) {
     }
     zebAddNoSort(array, target)
 }
-const answerArray = zebAdd(newArray, newTarget)
-console.log(answerArray)
+console.log(zebAdd(newArray, newTarget))
+// console.log(answerArray)
 
 
 console.log(checkTarget([1,2,3,4,5,6], 8))
