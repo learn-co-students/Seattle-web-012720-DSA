@@ -1,6 +1,6 @@
 # Return a two-dimensional array
 
-- Given an array, and an integer *n*, return an array full of smaller arrays, with each of the smaller arrays contining *n* number of elements. 
+- Given an array, and an integer *n*, return an array full of smaller arrays, with each of the smaller arrays containing *n* number of elements. 
 
 Example: 
 ```javascript
