@@ -75,6 +75,23 @@ function aidanSplitter(array, num){
     return newArray
 }
 
+function thing2(array, num){
+    let newArray = []
+    let tempArray = []
+    while(array.length > 0){
+      tempArray.push(array[0])
+      array.shift()
+      if(tempArray.length == num){
+        newArray.push(tempArray)
+        tempArray = []
+      }else if(array.length == 0){
+        newArray.push(tempArray)
+      }
+    }
+    return newArray
+  }
+  
+
 let i=0
 console.time("kim")
 while(i<100){
@@ -114,3 +131,11 @@ while(i<100){
     i++
 }
 console.timeEnd("aidan")
+
+i=0
+console.time("aidan2")
+while(i<100){
+    thing2(["a", "b", "c", "d"], 2)
+    i++
+}
+console.timeEnd("aidan2")
