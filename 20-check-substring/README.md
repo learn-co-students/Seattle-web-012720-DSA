@@ -1,6 +1,6 @@
 # Check if Substring Exists
 
-- Given a string, *s*, and another string, *t*, determine whether *t* could be create **solely** by removing characters from *s*. 
+- Given a string, *s*, and another string, *t*, determine whether *t* could be created **solely** by removing characters from *s*. 
 
 ## Examples:
 
