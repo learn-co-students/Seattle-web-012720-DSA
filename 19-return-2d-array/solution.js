@@ -93,38 +93,38 @@ function thing2(array, num){
   
 
 let i=0
-console.time("kim")
-while(i<100){
-    kimSplitter(["a", "b", "c", "d"], 2)
-    i++
-}
-console.timeEnd("kim")
+// console.time("kim")
+// while(i<100){
+//     kimSplitter(["a", "b", "c", "d"], 2)
+//     i++
+// }
+// console.timeEnd("kim")
 
-i=0
-console.time("diana")
-while(i<100){
-    dianaSplitter(["a", "b", "c", "d"], 2)
-    i++
-}
-console.timeEnd("diana")
+// i=0
+// console.time("diana")
+// while(i<100){
+//     dianaSplitter(["a", "b", "c", "d"], 2)
+//     i++
+// }
+// console.timeEnd("diana")
 
-i=0
-console.time("zeb")
-while(i<100){
-    zebSplitter(["a", "b", "c", "d"], 2)
-    i++
-}
-console.timeEnd("zeb")
+// i=0
+// console.time("zeb")
+// while(i<100){
+//     zebSplitter(["a", "b", "c", "d"], 2)
+//     i++
+// }
+// console.timeEnd("zeb")
 
-i=0
-console.time("clarion")
-while(i<100){
-    clarionSplitter(["a", "b", "c", "d"], 2)
-    i++
-}
-console.timeEnd("clarion")
+// i=0
+// console.time("clarion")
+// while(i<100){
+//     clarionSplitter(["a", "b", "c", "d"], 2)
+//     i++
+// }
+// console.timeEnd("clarion")
 
-i=0
+// i=0
 console.time("aidan")
 while(i<100){
     aidanSplitter(["a", "b", "c", "d"], 2)
@@ -139,3 +139,4 @@ while(i<100){
     i++
 }
 console.timeEnd("aidan2")
+
