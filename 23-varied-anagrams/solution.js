@@ -1,0 +1,5 @@
+// chris
+
+function randomGram(){
+    
+}
