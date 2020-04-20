@@ -1,7 +1,7 @@
 # Varied Anagram Maker
 
 - Given a string, return an anagram of the string. 
-- The program, given the same string, should generate a different anagram each time (results may be repeated by chance)
+- The function, given the same string, should generate a different anagram each time (results may be repeated by chance)
 
 ## Examples
 ```javascript
