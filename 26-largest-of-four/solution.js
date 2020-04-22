@@ -36,3 +36,15 @@ function largestOfFour(bigArray) {
     })
     return newArray
   }
+
+//   Joe
+
+function largestOfFour(array) {
+    let newArray = [];
+    let max;
+    array.forEach(innerArray=> { 
+      max = Math.max(...innerArray);
+      newArray.push(max);
+    })
+    return newArray;
+  }
