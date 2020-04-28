@@ -1,4 +1,4 @@
-# Extract Each *n*th element
+# Extract Each *n*th Element
 
 - Given an array *a* and an integer *n*, remove an element at every *nth* location. Return the altered array. 
 
