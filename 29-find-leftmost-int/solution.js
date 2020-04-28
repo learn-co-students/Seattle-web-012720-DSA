@@ -1,10 +1,12 @@
 // david
 function firstDigit(word) {
-    let digits = [];
-    let newWord = word.split("") 
-    newWord.map(x=>{
-        for (let i=1; i<11; i++) {
-            if (`${x}`==`${i}`) { digits.push(`${i}`)}}    }  ) return digits[0]} firstDigit("var_1__3Int");
+    // let digits = [];
+    // let newWord = word.split("") 
+    // newWord.map(x=>{
+    //     for (let i=1; i<11; i++) {
+    //         if (`${x}`==`${i}`) { digits.push(`${i}`)}}    }  ) return digits[0]} firstDigit("var_1__3Int");
+
+}
 
 // joe
 function findLeftmost(string){
