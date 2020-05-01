@@ -12,3 +12,7 @@
     imABirdScientistDoingBirdScience([3,8,1,4,8])
         => 8
 ```
+
+## Source
+
+[HackerRank](https://www.hackerrank.com/challenges/migratory-birds/problem)
