@@ -1,6 +1,6 @@
 # Find the Most Repeated Number in Array
 
-- You are a field scientist counting bird sightings. Given an array of integers, each integer representing a different type of bird, determine which "bird" appears the msot times in the array and return that bird's identifying number.
+- You are a field scientist counting bird sightings. Given an array of integers, each integer representing a different type of bird, determine which "bird" appears the most times in the array and return that bird's identifying number.
 
 - If there are two birds who tie, return the bird whose index (not identifying number) is lowest.
 
