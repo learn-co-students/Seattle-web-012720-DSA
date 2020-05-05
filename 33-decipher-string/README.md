@@ -10,7 +10,7 @@ The string will be encoded in the following way:
 ```javascript
     stringDecoder("13-25 4-15-7 9-19 E")
         => "MY DOG IS 5"
-    stringDecoder("25-5-1-18 cace")
+    stringDecoder("25-5-1-18 CACE")
         => "YEAR 2025"
     stringDecoder("8-5-25 11-9-13")
         => "HEY KIM"
