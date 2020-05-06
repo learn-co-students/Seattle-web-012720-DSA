@@ -21,11 +21,11 @@ function sumOddFibs(x){
 
 
 // zeb
-// doesn't do the whole odds thing
 function makeFibs (times, firstNum=1, secondNum=1, sum=0) {
-    times -= 1
-    sum += firstNum
-    if (times > 1) {
+    if (firstNum % 2 ) {
+        sum += firstNum
+    }
+    if (firstNum + secondNum < times) {
         return makeFibs(times, firstNum+secondNum, firstNum, sum)
     }
     return sum + 1
